@@ -1,6 +1,6 @@
 from microbit import Image, i2c
 
-from ssd1306 import screen, set_zoom, set_pos, ADDR
+from OD01 import screen, set_zoom, set_pos, ADDR
 
 
 def add_text(x, y, text, draw=1):
