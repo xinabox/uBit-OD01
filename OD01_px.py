@@ -1,7 +1,7 @@
 from microbit import i2c
 from ustruct import pack_into
 
-from ssd1306 import screen, set_pos
+from OD01 import screen, set_pos
 
 
 def set_px(x, y, color, draw=1):

@@ -1,5 +1,4 @@
 from microbit import Image, i2c
-
 from OD01 import screen, set_zoom, set_pos, ADDR
 
 

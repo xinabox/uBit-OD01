@@ -1,7 +1,7 @@
-from ssd1306 import initialize, clear_oled
-from ssd1306_stamp import draw_stamp
-from ssd1306_img import create_stamp
-from ssd1306_text import add_text
+from OD01 import initialize, clear_oled
+from OD01_stamp import draw_stamp
+from OD01_img import create_stamp
+from OD01_text import add_text
 from microbit import accelerometer, sleep, Image
 from random import randint
 

@@ -1,8 +1,8 @@
-from ssd1306 import initialize, clear_oled
-from ssd1306_stamp import draw_stamp
+from OD01 import initialize, clear_oled
+from OD01_stamp import draw_stamp
 from microbit import button_a as A,  button_b as B, display as D
 from random import randint
-from ssd1306_bitmap import show_bitmap
+from OD01_bitmap import show_bitmap
 
 
 def mv_stmp(x1, y1, x2, y2, stmp):

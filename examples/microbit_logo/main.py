@@ -1,3 +1,3 @@
-from ssd1306_bitmap import *
+from OD01_bitmap import *
 
 show_bitmap("microbit_logo")

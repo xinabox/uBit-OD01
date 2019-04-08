@@ -1,8 +1,8 @@
-from ssd1306 import initialize, clear_oled
-from ssd1306_px import get_px, set_px
+from OD01 import initialize, clear_oled
+from OD01_px import get_px, set_px
 from microbit import accelerometer, button_b, button_a, sleep, display
 from random import randint
-from ssd1306_text import add_text
+from OD01_text import add_text
 initialize()
 clear_oled()
 pixels = []

@@ -1,6 +1,6 @@
 from microbit import sleep
 
-from ssd1306 import command
+from OD01 import command
 
 
 def blink(time=1000):
